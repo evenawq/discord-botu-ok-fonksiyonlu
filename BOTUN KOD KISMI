@@ -595,5 +595,21 @@ async def fotoğraf_algılama(ctx):
         sınıf,score=eae.efe(f"./img/{dosya.filename}")
         if sınıf=="geveze kuşu\n":
             await ctx.send("kuştur")
+        elif sınıf==" Papasula abbotti\n":
+            await ctx.send("Beslenme aralığı genellikle Christmas Adası'ndan 40-100 km'ye (25-62 mil) ulaşır")
+        elif sınıf=="Habeş kara boynuzgagası\n":
+            await ctx.send("üstgagalarından yukarı uzayan boynuzsu çıkıntı ile tanınır ve gagalar genelde rengarenk olur")
+        elif sınıf=="taçlı turna\n":
+            await ctx.send("Başın sert altın tüylerden oluşan bir tacı vardır. Yüzün yanları beyazdır ve parlak kırmızı, şişirilebilir bir boğaz kesesi vardır")
+        elif sınıf=="Afrika zümrüt guguk kuşu\n":
+            await ctx.send("kanatlıdır ve göç eder")
+        elif sınıf=="Afrika ateş ispinozu\n":
+            await ctx.send("kırmızıdır(!)")
+        elif sınıf=="Haematopus moquini\n":
+            await ctx.send("kuştur(!)")
+        elif sınıf=="Lophoceros semifasciatus\n":
+            await ctx.send("kuştur(!)")
+        elif sınıf=="albatros\n":
+            await ctx.send("beyazdır ve bir kuştur(!)")
 
-bot.run("TOKEN BURAYA")
+bot.run("")
